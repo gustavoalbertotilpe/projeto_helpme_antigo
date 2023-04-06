@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.corpo{
+    display: block;
+    width: 100%;
+    max-width: 1024px;
+    margin:0  auto;
+}
+.topo{
+    display: block;
+    width: 100%;
+    height: 80px;
+    text-align: right;
+}
+.conteudo{
+    display: block;
+    width: 100%;
+}
+.conteudo-left{
+    display: block;
+    width: 17%;
+    height: 50px;
+    border: solid 1px #000;
+    float: left;
+    padding-top: 20px;
+}
+.conteudo-formulario{
+    display: block;
+    width: 57%;
+    height: 373px;
+    float: left;
+    margin-left: 35px;
+}
+.conteudo-formulario input[type=text],textarea{
+    width: 90%;
+    height: 27px;
+    margin-left: 5px;
+}
+.conteudo-formulario textarea{
+    height: 170px ;
+}
+.conteudo-formulario input[type=submit]{
+    width: 120px;
+    height: 24px;
+    cursor: pointer;
+    margin-left: 35%;
+}
+.conteudo-rigth{
+    display: block;
+    width:18% ;
+    float: left;
+    padding: 8px;
+    border: solid 1px #000;
+}
+.dashtop{
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+.dashcont{
+    display: block;
+    width: 100%;
+    height: 400px;
+    max-height: 600px;
+    overflow-y: auto;
+}
+.tbl_chamados{
+    display: block;
+    width: 78%;
+    margin:0 auto;
+}
+.tbl_chamados table,td,tr{
+    border: solid 1px #000;
+}
+.conteu-chat-principal{
+    display: block;
+    width: 100%;
+    max-width: 1024;
+    height: 720px;
+    margin:0 auto;
+    border:solid 1px #000;
+}
+
+.head-chat{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 600px;
+    float: left;
+    overflow-y: auto;
+    padding-left:50px;
+}
+.caixa-txt-chat{
+    clear: both;
+    display: block;
+    width: 100%;
+    height: 80px;
+    float: left;
+    padding-left:0;
+}
+.caixa-txt{
+    display: block;
+    width: 100%;
+    height: 80px;
+    margin:0;
+    padding:0;
+    border: solid 1px #000;
+}
+.remetente,.destinatario{
+    background-color: #3cb55c;
+}
+.destinatario{
+    background-color: #0d88bd;
+}
+.remetente,.destinatario{
+    width: 85%;
+    display: block;
+    border-radius: 5px;
+    margin: 12px 12px;
+    padding: 12px 12px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: justify;
+}
+.contatosEscondidos{
+    display: none;
+}
+.data-mensagem{
+    display: block;
+    height: 2px;
+    float: right;
+    margin:0;
+    padding: 0;
+    margin-top: 3px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    width: 70px;
+}
+.nome{
+    width: 100%;
+    height: 40px;
+}
+.contatos{
+    clear: both;
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 720px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #f2f2f2;
+}
+.contatos ul{
+    display: block;
+}
+.contatos li{
+    display: block;
+    width: 100%;
+    background-color:#06ba51;
+    list-style-type: none;
+    padding:12px 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
